@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>responsive template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+	
+</head>
+<body>
+	<!--navbar-->
+	
+    <div class="topnav" id="myTopnav">
+		  <a href="#home" class="active">Home</a>
+		  <a href="#news">News</a>
+		  <a href="#news">Services</a>
+		  <a href="#contact">Contact</a>
+		  <a href="#about">About</a>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		    <i class="fa fa-bars"></i>
+		  </a>
+    </div>
+
+    <script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+		    x.className += " responsive";
+		  } else {
+		    x.className = "topnav";
+		  }
+		}
+    </script>
+    </div>
+    <!--header-->
+    <div class="header">
+    	<h2>New arrivals</h2>
+    	<h3>COLLECTION 2019</h3>
+    	<button class="header-button">SHOP NOW</button>
+    </div>
+    <!--collection-->
+    <div class="collection">
+    	<div class="flex-container">
+    		<div class="one"></div>
+    		<div class="two"></div>
+    		<div class="three"></div>
+    		<div class="four"></div>
+    		<div class="five"></div>
+    		<div class="six"></div>
+    		<div class="seven"></div>
+    		<div class="eight"></div>
+
+    	</div>
+    </div>
+    <!--subscribe-->
+    <div class="subscribe">
+    	<h2>Subscribe</h2>
+    	<p>To get Vip Offers and Special Treatment </p>
+    	<form>
+    		<input type="text" placeholder="Enter e-mail">
+
+    	</form>
+    	<button class="subscribe-button">Subscribe</button>
+    </div>
+    <!--contact-->
+    <div class="contact">
+    	<div class="contacts">
+    	    <h2 style="font-weight: 100">Contact</h2>
+    	    <p>Questions? go ahead</p>
+    	    <form>
+    	    	<input type="text" placeholder="Name"><br>
+    	    	<input type="text" placeholder="Email"><br>
+    	    	<input type="text" placeholder="Subject"><br>
+    	    	<input type="text" placeholder="Message"><br>
+    	    </form> 
+    	    <button class="contacts-button">Send</button>  
+        </div>
+    	<div class="about">
+    		<h2>About</h2>
+    		<p>About us</p>
+    		<p>We are hiring</p>
+    		<p>Support</p>
+    		<p>Payment</p>
+    		<p>Find store</p>
+    		<p>Help</p>
+    		<p>Return</p>
+    	</div>
+    	<div class="store">
+    		<h2>Store</h2>
+    		<i class="fa fa-adjust icon"> <span>Company Name</span></i><br>
+    		<i class="fa fa-at icon"> <span> We accept</span> </i><br>
+    		<i class="fa fa-square-o icon"> <span>Amex</span></i><br>
+    		<i class="fa fa-cc-paypal icon"> <span>Paypal</span></i><br>
+    		<i class="fa fa-cc-visa icon"> <span>Visa</span></i><br>
+    		<i class="fa fa-credit-card icon"> <span>Credit card</span></i><br>
+    		<i class="fa fa-file icon"> <span>File</span></i><br>
+    		<i class="fa fa-file-o icon"> <span>Files</span></i>
+    	</div>
+    </div>
+    <!--footer-->
+    <div class="footer">
+    	<h2>This template is made by &copy Tahmid</h2>
+
+    </div>
+    
+</body>
+</html>
